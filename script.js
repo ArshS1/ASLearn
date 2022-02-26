@@ -5,7 +5,10 @@ function inputChecker() {
   information = document.getElementById("textContainer").value;
   for (let i = 0; i < information.length; i++) {
     const element = information[i];
-    if (!/[a-zA-Z]/.test(element)) {
+    if (element == ' ') {
+      loop = 0;
+    }
+    else if (!/[a-zA-Z]/.test(element)) {
       loop = 1;
       document.getElementById("signsContainer").innerHTML = "Please ensure that the text is Alphabetic";
       break;
