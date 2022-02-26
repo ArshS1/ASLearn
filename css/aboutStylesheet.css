@@ -1,3 +1,30 @@
 .aboutSection {
-    height: 100vh;
+  height: 100vh;
+  background-color: greenyellow;
+}
+.head1 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+.Foundation {
+  background-color: pink;
+  font-family: CenturyGothic, AppleGothic, sans-serif;
+  padding-left: 30px;
+  padding-top: 7px;
+}
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  padding-left: 20px;
+}
+#foundationname {
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
 }

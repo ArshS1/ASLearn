@@ -1,4 +1,71 @@
 .game {
     height: 100vh;
-    
+    display: flex;
+    flex-direction: column;
+    background-image: url("/assets/background.png");
+}
+
+.game h1 {
+    font-size: 4rem;
+    margin-top: 15vh;
+}
+
+.intro {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+
+.game button{
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+.game button:hover{
+    background-color: black;
+    color: white;
+}
+
+.gameStart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gameStart input {
+    margin: 10px 10px;
+}
+
+.locationImage {
+    height: 5vh;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+
+.buttonsGame {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.response {
+    margin-bottom: 10vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+#textContainer2 {
+    text-align: center;
+}
+
+#playButton2 {
+    font-size: 2rem;
+    border-radius: 0;
 }
