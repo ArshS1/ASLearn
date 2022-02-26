@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASLearn</title>
+  <!-- adding CSS-->
+  <link rel="stylesheet" href="/css/stylesheet.css" />
+
+  <!-- adding Assets-->
+  <link rel="icon" href="/assets/ASL_icon.png" />
+
+  <!-- adding javascript-->
+  <script src="/script.js"></script>
+</head>
+
+<body>
+  <!-- MAIN DIV-->
+  <div class="main">
+    <div class="logo">
+      <img class="logo1" src="/assets/ASLearn_Logo.png" alt="" />
+    </div>
+    <!-- NAV BAR-->
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a class="smoothscroll" href="#">About</a></li>
+          <li><a class="smoothscroll" href="#">Alphabet</a></li>
+          <li><a class="smoothscroll" href="#">Contact</a></li>
+          <li><a class="smoothscroll" href="#">Foundation</a></li>
+        </ul>
+      </nav>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+  
+    <!-- LOGO UNDER THE DIV-->
+    <!-- <div class="logo">
+      <img class="logo1"  src="/assets/ASLearn_Logo.png" alt="" />
+    </div> -->
+    <br />
+    <div class="content">
+      <form id="gettingInput">
+        <label for="textBox"></label>
+        <input id="textContainer" type="text" placeholder="Enter text here" />
+      </form>
+
+      <br />
+      <br />
+    </div>
+    <br />
+    <div id="buttons">
+      <button id="submitButtom" class="formButton" type="button" onclick="inputChecker()">
+        Convert To ASL
+      </button>
+      <button id="resetButton" class="formButton" type="button" onclick="clearing()">
+        Reset
+      </button>
+    </div>
+    <div id="signsContainer"></div>
+    <br />
+    <br />
+
+    <div class="about section">
+      <h1>About</h1>
+      <p>
+        American Sign Language (ASL) is the predominant sign language used by
+        the deaf community in the United States. ASL uses the expression of
+        hand gestures and movements to produce meaning. This provides a full
+        range of communication to those with hearing disabilities.
+      </p>
+      <p>
+        ASLearn helps translate text to ASL signs. The use of this tool can
+        help someone learn the ASL alphabet to make it easier to communicate
+        with those who have hearing disabilities. Furthermore, the use of
+        ASLearn helps promote awareness about the deaf or hard hearing
+        community.
+      </p>
+    </div>
+
+    <br />
+
+    <div class="Contact">
+      <h1>Contact</h1>
+      <ul>
+        <li>arshdeep.singh174@myhunter.cuny.edu</li>
+        <li>rahat.khandokar89@myhunter.cuny.edu</li>
+        <li>prabhjott.kusrath08@myhunter.cuny.edu</li>
+        <li>steven.sikorski18@myhunter.cuny.edu</li>
+      </ul>
+    </div>
+
+    <!-- Mian div ending-->
+  </div>
+  <script src="/script.js"></script>
+</body>
+
+</html>
