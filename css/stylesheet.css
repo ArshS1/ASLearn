@@ -84,7 +84,6 @@ pre {
   opacity: 1;
 }
 
-
 h3 {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 14px;
@@ -222,7 +221,7 @@ pre {
   text-align: center;
 }
 
-/* N.avbar css */
+/* Navbar css */
 nav {
   /* float: center; */
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -339,8 +338,6 @@ div.logo {
   font-weight: bolder;
 }
 
-/* take all the alphabet shit and move it the aboutStylesheet */
-
 /* Contact info page */
 *,
 *:before,
@@ -415,9 +412,6 @@ div.logo {
   display: flex;
 
   justify-content: center;
-}
-.asl_logo {
-  background-color: aqua;
 }
 
 .row {
