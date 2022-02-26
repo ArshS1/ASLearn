@@ -6,9 +6,8 @@
 /* keep sign size as 10 vh and 5 vw for width */
 
 .main {
-  height: 120vh;
-  background-color: lightgrey;
-  overflow: hidden;
+  height: 100vh;
+  background-color: white;
 }
 
 .sign {
@@ -24,6 +23,10 @@
 .content {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 92vh;
+  width: auto;
 }
 /* text box */
 .content input {
@@ -50,16 +53,50 @@
   padding: 10px 10px;
 }
 
-.logo img {
-  height: 10vh;
-  width: 20vw;
-  padding-left: 1vh;
-  margin-top: 2vh;
-  /* margin-left: 54vh; */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background: linear-gradient(45deg, #ecce5f, #d8965c);
+  background-size: 400% 400%;
+  position: relative;
+  animation: animate 6s ease-in-out infinite;
+  height: 8vh;
+  width: auto;
 }
+
+@keyframes animate {
+  0% {
+    background-image: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.navbar img {
+  height: 6vh;
+  width: 10vw;
+  padding-left: 0.5vw;
+  margin-right: auto;
+}
+
+.navbar nav {
+  align-self: center;
+  margin-bottom: 2vh;
+  margin-left: 10vw;
+}
+
 .logo1 {
   display: flex;
   justify-content: center;
+}
+
+.pushLeft {
+  margin-right: 2vw;
 }
 
 #signsContainer {
@@ -118,3 +155,7 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+div.logo {
+  float: left;
+}
+
