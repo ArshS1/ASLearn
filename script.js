@@ -23,82 +23,82 @@ function userEntered(string) {
 function serveImage(char) {
   switch (char) {
     case "A":
-      showImage("/assets/ASL_signs/A.png", 100, 90);
+      showImage("/assets/A.png", 100, 90);
       break;
     case "B":
-      showImage("/assets/ASL_signs/B.png", 100, 90);
+      showImage("/assets/B.png", 100, 90);
       break;
     case "C":
-      showImage("/assets/ASL_signs/C.png", 100, 90);
+      showImage("/assets/C.png", 100, 90);
       break;
     case "D":
-      showImage("/assets/ASL_signs/D.png", 100, 90);
+      showImage("/assets/D.png", 100, 90);
       break;
     case "E":
-      showImage("/assets/ASL_signs/E.png", 100, 90);
+      showImage("/assets/E.png", 100, 90);
       break;
     case "F":
-      showImage("/assets/ASL_signs/F.png", 100, 90);
+      showImage("/assets/F.png", 100, 90);
       break;
     case "G":
-      showImage("/assets/ASL_signs/G.png", 100, 90);
+      showImage("/assets/G.png", 100, 90);
       break;
     case "H":
-      showImage("/assets/ASL_signs/H.png", 100, 90);
+      showImage("/assets/H.png", 100, 90);
       break;
     case "I":
-      showImage("/assets/ASL_signs/I.png", 100, 90);
+      showImage("/assets/I.png", 100, 90);
       break;
     case "J":
-      showImage("/assets/ASL_signs/J.png", 100, 90);
+      showImage("/assets/J.png", 100, 90);
       break;
     case "K":
-      showImage("/assets/ASL_signs/K.png", 100, 90);
+      showImage("/assets/K.png", 100, 90);
       break;
     case "L":
-      showImage("/assets/ASL_signs/L.png", 100, 90);
+      showImage("/assets/L.png", 100, 90);
       break;
     case "M":
-      showImage("/assets/ASL_signs/M.png", 100, 90);
+      showImage("/assets/M.png", 100, 90);
       break;
     case "N":
-      showImage("/assets/ASL_signs/N.png", 100, 90);
+      showImage("/assets/N.png", 100, 90);
       break;
     case "O":
-      showImage("/assets/ASL_signs/O.png", 100, 90);
+      showImage("/assets/O.png", 100, 90);
       break;
     case "P":
-      showImage("/assets/ASL_signs/P.png", 100, 90);
+      showImage("/assets/P.png", 100, 90);
       break;
     case "Q":
-      showImage("/assets/ASL_signs/Q.png", 100, 90);
+      showImage("/assets/Q.png", 100, 90);
       break;
     case "R":
-      showImage("/assets/ASL_signs/R.png", 100, 90);
+      showImage("/assets/R.png", 100, 90);
       break;
     case "S":
-      showImage("/assets/ASL_signs/S.png", 100, 90);
+      showImage("/assets/S.png", 100, 90);
       break;
     case "T":
-      showImage("/assets/ASL_signs/T.png", 100, 90);
+      showImage("/assets/T.png", 100, 90);
       break;
     case "U":
-      showImage("/assets/ASL_signs/U.png", 100, 90);
+      showImage("/assets/U.png", 100, 90);
       break;
     case "V":
-      showImage("/assets/ASL_signs/V.png", 100, 90);
+      showImage("/assets/V.png", 100, 90);
       break;
     case "W":
-      showImage("/assets/ASL_signs/W.png", 100, 90);
+      showImage("/assets/W.png", 100, 90);
       break;
     case "X":
-      showImage("/assets/ASL_signs/X.png", 100, 90);
+      showImage("/assets/X.png", 100, 90);
       break;
     case "Y":
-      showImage("/assets/ASL_signs/Y.png", 100, 90);
+      showImage("/assets/Y.png", 100, 90);
       break;
     case "Z":
-      showImage("/assets/ASL_signs/Z.png", 100, 90);
+      showImage("/assets/Z.png", 100, 90);
       break;
 
     default:
