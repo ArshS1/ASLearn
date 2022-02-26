@@ -1,8 +1,22 @@
 // this helps get data from the textbox
 var information, remover;
+var loop = 0;
 function inputChecker() {
   information = document.getElementById("textContainer").value;
-  userEntered(information);
+  for (let i = 0; i < information.length; i++) {
+    const element = information[i];
+    if (!/[a-zA-Z]/.test(element)) {
+      loop = 1;
+      document.getElementById("signsContainer").innerHTML = "Please ensure that the text is Alphabetic";
+      break;
+    }
+    else {
+      loop = 0;
+    }
+  }
+  if (loop == 0) {
+    userEntered(information);
+  }
 }
 
 // function to clear everything

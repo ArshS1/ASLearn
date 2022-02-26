@@ -54,57 +54,8 @@
   padding: 10px 10px;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  background: linear-gradient(45deg, #ecce5f, #d8965c);
-  background-size: 400% 400%;
-  position: relative;
-  animation: animate 6s ease-in-out infinite;
-  height: 8vh;
-  width: auto;
-}
-
-@keyframes animate {
-  0% {
-    background-image: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-.navbar img {
-  height: 6vh;
-  width: 10vw;
-  padding-left: 0.5vw;
-  margin-right: auto;
-}
-
-.navbar nav {
-  align-self: center;
-  margin-bottom: 2vh;
-  margin-left: 10vw;
-}
-
-.logo1 {
-  display: flex;
-  justify-content: center;
-}
-
-.pushLeft {
-  margin-right: 2vw;
-}
-
-#signsContainer {
-  display: flex;
-  justify-content: center;
-  height: 15vh;
-  width: auto;
+#textContainer {
+  text-align: center;
 }
 
 
@@ -160,3 +111,55 @@ div.logo {
   float: left;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background: linear-gradient(45deg, #ecce5f, #d8965c);
+  background-size: 400% 400%;
+  position: relative;
+  animation: animate 6s ease-in-out infinite;
+  height: 8vh;
+  width: auto;
+}
+
+@keyframes animate {
+  0% {
+    background-image: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.navbar img {
+  height: 6vh;
+  width: 10vw;
+  padding-left: 0.5vw;
+  margin-right: auto;
+}
+
+.navbar nav {
+  align-self: center;
+  margin-bottom: 2vh;
+  margin-left: 10vw;
+}
+
+.logo1 {
+  display: flex;
+  justify-content: center;
+}
+
+.pushLeft {
+  margin-right: 2vw;
+}
+
+#signsContainer {
+  display: flex;
+  justify-content: center;
+  height: 15vh;
+  width: auto;
+}
