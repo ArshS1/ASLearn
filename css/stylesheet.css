@@ -1,16 +1,16 @@
 * {
-  padding: 0px 0px;
   margin: 0px 0px;
-  background-color: lightgray;
-  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-}
-
-.logo img {
-  height: 20vh;
-  width: 35vw;
+  padding: 0px 0px;
 }
 
 /* keep sign size as 10 vh and 5 vw for width */
+
+.main {
+  height: 120vh;
+  background-color: lightgrey;
+  overflow: hidden;
+}
+
 .sign {
   height: 10vh;
   width: 5vw;
@@ -21,7 +21,10 @@
   display: flex;
   flex-direction: column;
 }
-
+.content {
+  display: flex;
+  justify-content: center;
+}
 /* text box */
 .content input {
   font-size: 30px;
@@ -33,4 +36,83 @@
 .content button {
   height: 3.5vh;
   width: 7vw;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+}
+
+.formButton {
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+.logo img {
+  height: 10vh;
+  width: 20vw;
+  padding-left: 1vh;
+  margin-top: 2vh;
+  /* margin-left: 54vh; */
+}
+.logo1 {
+  display: flex;
+  justify-content: center;
+}
+
+#signsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Navbar css */
+nav {
+  float: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
 }
