@@ -65,6 +65,8 @@
 #signsContainer {
   display: flex;
   justify-content: center;
+  height: 15vh;
+  width: auto;
 }
 
 

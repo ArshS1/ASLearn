@@ -1,8 +1,14 @@
 // this helps get data from the textbox
-var information;
+var information, remover;
 function inputChecker() {
   information = document.getElementById("textContainer").value;
   userEntered(information);
+}
+
+// function to clear everything
+function clearing() {
+  document.getElementById("textContainer").value = "";
+  document.getElementById("signsContainer").innerHTML = "";
 }
 
 // stores user input and sends characters to the serving function
@@ -107,4 +113,12 @@ function showImage(src, width, height) {
 
   a.height = height;
   document.getElementById("signsContainer").appendChild(a);
+}
+
+function clear() {
+  remover = document.getElementById("signsContainer");
+  while (remover.firstChild) {
+    remover.removeChild(remover.firstChild);
+    remover.querySelectorAll("*").forEach((remo) => remo.remove());
+  }
 }
