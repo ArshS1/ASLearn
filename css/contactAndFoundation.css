@@ -1,0 +1,99 @@
+.Foundation {
+    background-color: pink;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    padding-left: 25px;
+    padding-top: 7px;
+  }
+  
+  .head1 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+
+  .newspaper {
+    padding-top: 2vh;
+    background-image: url("/assets/background.png");
+  }
+  
+  /* Contact info page */
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin: 1vh 1vw;
+    padding: 0 8px;
+  }
+  
+  .column:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after,
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  .main_contact {
+    background-color: #ecce5f;
+    width: auto;
+    display: flex;
+  
+    justify-content: center;
+  }
+  
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }

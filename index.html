@@ -13,12 +13,13 @@
   <link rel="stylesheet" href="/css/game.css" />
   <link rel="stylesheet" href="/css/aboutStylesheet.css" />
   <link rel="stylesheet" href="/css/alphabets.css" />
+  <link rel="stylesheet" href="/css/contactAndFoundation.css" />
 
   <!-- Adding Assets-->
   <link rel="icon" href="/assets/ASLearn_Icon1616.png" />
 
   <!-- Adding JavaScript-->
-  <script src="/script.js"></script>
+  <script src="/script.js" defer></script>
 </head>
 
 <body>
@@ -30,10 +31,10 @@
       <div class="pushLeft">
         <nav>
           <ul>
-            <li><a class="smoothscroll" href="#">About</a></li>
-            <li><a class="smoothscroll" href="#">Alphabet</a></li>
-            <li><a class="smoothscroll" href="#">Contact</a></li>
-            <li><a class="smoothscroll" href="#">Foundation</a></li>
+            <li><a class="smoothscroll" href="#game">Game</a></li>
+            <li><a class="smoothscroll" href="#alphabets">Alphabet</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            <li><a class="smoothscroll" href="#newspaper">Foundation</a></li>
           </ul>
         </nav>
       </div>
@@ -58,7 +59,7 @@
   </div>
 
   <!-- Mini Game Number 1 -->
-  <div class="game">
+  <div class="game" id="game">
     <div class="intro">
       <h1>ASL Quiz</h1>
     </div>
@@ -76,21 +77,14 @@
 
 
   <!-- Alphabet Image-->
-  <div class="grow">
-    <h1 class="head2">ASL Alphabets</h1>
+  <div class="grow" id="alphabets">
+    <h1 class="head2">ASL Alphabet</h1>
     <br>
     <br>
     <img class="asl_logo" src="/assets/Alphabet_Black.png" alt="" />
   </div>
-
-  <br>
-  <br>
-
   <!-- Foundation -->
-  <h1>Foundation</h1>
-  <br>
-
-  <div class="newspaper">
+  <div class="newspaper" id="newspaper">
     American Sign Language (ASL) is the predominant sign language used by the deaf community in the United States. ASL uses the expression of hand gestures and movements to produce meaning. This provides a full range of communication to those with hearing disabilities. 
 
     There are roughly 250,000 to 500,000 fluent signers of American Sign Language. This accounts to around 1% of the United States population. This reveals there is a clear language barrier between Americans. Increasing our knowledge of American Sign Language allows us to better communicate with Americans who have impaired hearing and utilize American Sign Language on a daily basis.
@@ -98,8 +92,7 @@
   </div>
 
   <!-- Contacts -->
-  <br>
-  <div class="main_contact">
+  <div class="main_contact" id="contact">
     <div class="row">
 
       <div class="column">
@@ -117,7 +110,7 @@
 
           <div class="container">
             <h2>Rahat Khandokar</h2>
-            <p class="title">Front-End Developer</p>
+            <p class="title">Front-End Developer & UI/UX Designer</p>
             <p>rahat.khandokar89@myhunter.cuny.edu</p>
           </div>
         </div>
@@ -149,7 +142,6 @@
     <!-- Main Div Ends -->
 
   </div>
-  <script src="/script.js"></script>
 </body>
 
 </html>

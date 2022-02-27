@@ -14,7 +14,7 @@
     text-align: center;
     font-weight: bolder;
     font-size: 3rem;
-
+    
   }
 
 .grow {
@@ -26,8 +26,6 @@
   }
   
   .grow img:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(0.9);
     transition: 1s ease;
   }

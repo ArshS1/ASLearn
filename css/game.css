@@ -7,7 +7,7 @@
 
 .game h1 {
     font-size: 4rem;
-    margin-top: 15vh;
+    margin-top: 5vh;
 }
 
 .intro {
@@ -18,13 +18,15 @@
 }
 
 .game button{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     align-items: center;
     padding: 10px 10px;
-    border-radius: 50%;
+    border: 2px solid black;
+    
 }
 
 .game button:hover{
-    background-color: black;
+    background-color: #555555;
     color: white;
 }
 
@@ -48,6 +50,7 @@
 }
 
 .buttonsGame {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     display: flex;
     flex-direction: column;
     padding: 10px 10px;
@@ -66,6 +69,20 @@
 }
 
 #playButton2 {
-    font-size: 2rem;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1rem;
     border-radius: 0;
+    font-weight: bolder;
+    border: 2px solid black;
+  
+}
+#playButton {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    border: 2px solid black;
+  
+}
+h1{
+    text-decoration: underline;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-underline-offset: 15px;
 }
