@@ -2,7 +2,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url("/assets/background.png");
+    background-image: url("/ASLearn/assets/background.png");
 }
 
 .game h1 {

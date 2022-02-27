@@ -39,82 +39,82 @@ function userEntered(string) {
 function serveImage(char) {
   switch (char) {
     case "A":
-      showImage("/assets/A.png", 100, 90);
+      showImage("/ASLearn/assets/A.png", 100, 90);
       break;
     case "B":
-      showImage("/assets/B.png", 100, 90);
+      showImage("/ASLearn/assets/B.png", 100, 90);
       break;
     case "C":
-      showImage("/assets/C.png", 100, 90);
+      showImage("/ASLearn/assets/C.png", 100, 90);
       break;
     case "D":
-      showImage("/assets/D.png", 100, 90);
+      showImage("/ASLearn/assets/D.png", 100, 90);
       break;
     case "E":
-      showImage("/assets/E.png", 100, 90);
+      showImage("/ASLearn/assets/E.png", 100, 90);
       break;
     case "F":
-      showImage("/assets/F.png", 100, 90);
+      showImage("/ASLearn/assets/F.png", 100, 90);
       break;
     case "G":
-      showImage("/assets/G.png", 100, 90);
+      showImage("/ASLearn/assets/G.png", 100, 90);
       break;
     case "H":
-      showImage("/assets/H.png", 100, 90);
+      showImage("/ASLearn/assets/H.png", 100, 90);
       break;
     case "I":
-      showImage("/assets/I.png", 100, 90);
+      showImage("/ASLearn/assets/I.png", 100, 90);
       break;
     case "J":
-      showImage("/assets/J.png", 100, 90);
+      showImage("/ASLearn/assets/J.png", 100, 90);
       break;
     case "K":
-      showImage("/assets/K.png", 100, 90);
+      showImage("/ASLearn/assets/K.png", 100, 90);
       break;
     case "L":
-      showImage("/assets/L.png", 100, 90);
+      showImage("/ASLearn/assets/L.png", 100, 90);
       break;
     case "M":
-      showImage("/assets/M.png", 100, 90);
+      showImage("/ASLearn/assets/M.png", 100, 90);
       break;
     case "N":
-      showImage("/assets/N.png", 100, 90);
+      showImage("/ASLearn/assets/N.png", 100, 90);
       break;
     case "O":
-      showImage("/assets/O.png", 100, 90);
+      showImage("/ASLearn/assets/O.png", 100, 90);
       break;
     case "P":
-      showImage("/assets/P.png", 100, 90);
+      showImage("/ASLearn/assets/P.png", 100, 90);
       break;
     case "Q":
-      showImage("/assets/Q.png", 100, 90);
+      showImage("/ASLearn/assets/Q.png", 100, 90);
       break;
     case "R":
-      showImage("/assets/R.png", 100, 90);
+      showImage("/ASLearn/assets/R.png", 100, 90);
       break;
     case "S":
-      showImage("/assets/S.png", 100, 90);
+      showImage("/ASLearn/assets/S.png", 100, 90);
       break;
     case "T":
-      showImage("/assets/T.png", 100, 90);
+      showImage("/ASLearn/assets/T.png", 100, 90);
       break;
     case "U":
-      showImage("/assets/U.png", 100, 90);
+      showImage("/ASLearn/assets/U.png", 100, 90);
       break;
     case "V":
-      showImage("/assets/V.png", 100, 90);
+      showImage("/ASLearn/assets/V.png", 100, 90);
       break;
     case "W":
-      showImage("/assets/W.png", 100, 90);
+      showImage("/ASLearn/assets/W.png", 100, 90);
       break;
     case "X":
-      showImage("/assets/X.png", 100, 90);
+      showImage("/ASLearn/assets/X.png", 100, 90);
       break;
     case "Y":
-      showImage("/assets/Y.png", 100, 90);
+      showImage("/ASLearn/assets/Y.png", 100, 90);
       break;
     case "Z":
-      showImage("/assets/Z.png", 100, 90);
+      showImage("/ASLearn/assets/Z.png", 100, 90);
       break;
 
     default:
@@ -166,82 +166,82 @@ function reveal(src, width, height) {
 function secondSwitch(char) {
   switch (char) {
     case "A":
-      reveal("/assets/A.png", 100, 90);
+      reveal("/ASLearn/assets/A.png", 100, 90);
       break;
     case "B":
-      reveal("/assets/B.png", 100, 90);
+      reveal("/ASLearn/assets/B.png", 100, 90);
       break;
     case "C":
-      reveal("/assets/C.png", 100, 90);
+      reveal("/ASLearn/assets/C.png", 100, 90);
       break;
     case "D":
-      reveal("/assets/D.png", 100, 90);
+      reveal("/ASLearn/assets/D.png", 100, 90);
       break;
     case "E":
-      reveal("/assets/E.png", 100, 90);
+      reveal("/ASLearn/assets/E.png", 100, 90);
       break;
     case "F":
-      reveal("/assets/F.png", 100, 90);
+      reveal("/ASLearn/assets/F.png", 100, 90);
       break;
     case "G":
-      reveal("/assets/G.png", 100, 90);
+      reveal("/ASLearn/assets/G.png", 100, 90);
       break;
     case "H":
-      reveal("/assets/H.png", 100, 90);
+      reveal("/ASLearn/assets/H.png", 100, 90);
       break;
     case "I":
-      reveal("/assets/I.png", 100, 90);
+      reveal("/ASLearn/assets/I.png", 100, 90);
       break;
     case "J":
-      reveal("/assets/J.png", 100, 90);
+      reveal("/ASLearn/assets/J.png", 100, 90);
       break;
     case "K":
-      reveal("/assets/K.png", 100, 90);
+      reveal("/ASLearn/assets/K.png", 100, 90);
       break;
     case "L":
-      reveal("/assets/L.png", 100, 90);
+      reveal("/ASLearn/assets/L.png", 100, 90);
       break;
     case "M":
-      reveal("/assets/M.png", 100, 90);
+      reveal("/ASLearn/assets/M.png", 100, 90);
       break;
     case "N":
-      reveal("/assets/N.png", 100, 90);
+      reveal("/ASLearn/assets/N.png", 100, 90);
       break;
     case "O":
-      reveal("/assets/O.png", 100, 90);
+      reveal("/ASLearn/assets/O.png", 100, 90);
       break;
     case "P":
-      reveal("/assets/P.png", 100, 90);
+      reveal("/ASLearn/assets/P.png", 100, 90);
       break;
     case "Q":
-      reveal("/assets/Q.png", 100, 90);
+      reveal("/ASLearn/assets/Q.png", 100, 90);
       break;
     case "R":
-      reveal("/assets/R.png", 100, 90);
+      reveal("/ASLearn/assets/R.png", 100, 90);
       break;
     case "S":
-      reveal("/assets/S.png", 100, 90);
+      reveal("/ASLearn/assets/S.png", 100, 90);
       break;
     case "T":
-      reveal("/assets/T.png", 100, 90);
+      reveal("/ASLearn/assets/T.png", 100, 90);
       break;
     case "U":
-      reveal("/assets/U.png", 100, 90);
+      reveal("/ASLearn/assets/U.png", 100, 90);
       break;
     case "V":
-      reveal("/assets/V.png", 100, 90);
+      reveal("/ASLearn/assets/V.png", 100, 90);
       break;
     case "W":
-      reveal("/assets/W.png", 100, 90);
+      reveal("/ASLearn/assets/W.png", 100, 90);
       break;
     case "X":
-      reveal("/assets/X.png", 100, 90);
+      reveal("/ASLearn/assets/X.png", 100, 90);
       break;
     case "Y":
-      reveal("/assets/Y.png", 100, 90);
+      reveal("/ASLearn/assets/Y.png", 100, 90);
       break;
     case "Z":
-      reveal("/assets/Z.png", 100, 90);
+      reveal("/ASLearn/assets/Z.png", 100, 90);
       break;
 
     default:
@@ -265,9 +265,9 @@ function answerCheck() {
   userAnswer = userAnswer.toUpperCase();
   kill();
   if (userAnswer === randomCharacter) {
-    outputResult("/assets/right.png", 320, 100);
+    outputResult("/ASLearn/assets/right.png", 320, 100);
   } else if (userAnswer !== randomCharacter) {
-    outputResult("/assets/wrong.png", 320, 100);
+    outputResult("/ASLearn/assets/wrong.png", 320, 100);
   }
 }
 
